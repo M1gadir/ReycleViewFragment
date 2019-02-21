@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/LN_enaht"
+        >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv_gg"
+        android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_categ"
+            android:text="minecraft"
+            android:layout_below="@+id/iv_gg"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

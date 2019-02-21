@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/move1"
+    android:title="move fm1"
+    app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/move2"
+        android:title="move fm 2"
+        app:showAsAction="withText" />
+</menu>
